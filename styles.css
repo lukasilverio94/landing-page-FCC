@@ -42,12 +42,14 @@ body {
 
 #nav-bar ul li {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   padding: 1rem;
   margin-right: 2rem;
 }
 
 #nav-bar ul li a {
+  flex-direction: row;
   text-decoration: none;
   color: black;
   font-weight: 600;
@@ -215,6 +217,7 @@ footer {
 
 footer > ul {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
 }
 
